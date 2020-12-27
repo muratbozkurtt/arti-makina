@@ -1,0 +1,604 @@
+[
+  {
+    "name": "account",
+    "path": "/account",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/account/index.vue",
+    "chunkName": "pages/account/index",
+    "_name": "_445bd456"
+  },
+  {
+    "name": "home-two",
+    "path": "/home-two",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/home-two.vue",
+    "chunkName": "pages/home-two",
+    "_name": "_cd1199ee"
+  },
+  {
+    "name": "offcanvas-cart",
+    "path": "/offcanvas-cart",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/offcanvas-cart.vue",
+    "chunkName": "pages/offcanvas-cart",
+    "_name": "_1f107611"
+  },
+  {
+    "name": "account-addresses",
+    "path": "/account/addresses",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/account/addresses/index.vue",
+    "chunkName": "pages/account/addresses/index",
+    "_name": "_0b66ac30"
+  },
+  {
+    "name": "account-dashboard",
+    "path": "/account/dashboard",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/account/dashboard.vue",
+    "chunkName": "pages/account/dashboard",
+    "_name": "_af0d0dd2"
+  },
+  {
+    "name": "account-login",
+    "path": "/account/login",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/account/login.vue",
+    "chunkName": "pages/account/login",
+    "_name": "_b10c8e28"
+  },
+  {
+    "name": "account-orders",
+    "path": "/account/orders",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/account/orders/index.vue",
+    "chunkName": "pages/account/orders/index",
+    "_name": "_2d9b1df5"
+  },
+  {
+    "name": "account-password",
+    "path": "/account/password",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/account/password.vue",
+    "chunkName": "pages/account/password",
+    "_name": "_d8430f30"
+  },
+  {
+    "name": "account-profile",
+    "path": "/account/profile",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/account/profile.vue",
+    "chunkName": "pages/account/profile",
+    "_name": "_a9c7f728"
+  },
+  {
+    "name": "blog-category-classic",
+    "path": "/blog/category-classic",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/blog/category-classic.vue",
+    "chunkName": "pages/blog/category-classic",
+    "_name": "_44a2e816"
+  },
+  {
+    "name": "blog-category-grid",
+    "path": "/blog/category-grid",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/blog/category-grid.vue",
+    "chunkName": "pages/blog/category-grid",
+    "_name": "_6eb33cf3"
+  },
+  {
+    "name": "blog-category-left-sidebar",
+    "path": "/blog/category-left-sidebar",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/blog/category-left-sidebar.vue",
+    "chunkName": "pages/blog/category-left-sidebar",
+    "_name": "_06bfbc43"
+  },
+  {
+    "name": "blog-category-list",
+    "path": "/blog/category-list",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/blog/category-list.vue",
+    "chunkName": "pages/blog/category-list",
+    "_name": "_a81a136a"
+  },
+  {
+    "name": "blog-post-classic",
+    "path": "/blog/post-classic",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/blog/post-classic.vue",
+    "chunkName": "pages/blog/post-classic",
+    "_name": "_4b03bcd2"
+  },
+  {
+    "name": "blog-post-full",
+    "path": "/blog/post-full",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/blog/post-full.vue",
+    "chunkName": "pages/blog/post-full",
+    "_name": "_bb49b54c"
+  },
+  {
+    "name": "shop-cart",
+    "path": "/shop/cart",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/cart.vue",
+    "chunkName": "pages/shop/cart",
+    "_name": "_07ca3ffe"
+  },
+  {
+    "name": "shop-catalog",
+    "path": "/shop/catalog",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/catalog/index.vue",
+    "chunkName": "pages/shop/catalog/index",
+    "_name": "_3119486e"
+  },
+  {
+    "name": "shop-category-grid-3-columns-sidebar",
+    "path": "/shop/category-grid-3-columns-sidebar",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/category-grid-3-columns-sidebar.vue",
+    "chunkName": "pages/shop/category-grid-3-columns-sidebar",
+    "_name": "_42e7364c"
+  },
+  {
+    "name": "shop-category-grid-4-columns-full",
+    "path": "/shop/category-grid-4-columns-full",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/category-grid-4-columns-full.vue",
+    "chunkName": "pages/shop/category-grid-4-columns-full",
+    "_name": "_d37e9f24"
+  },
+  {
+    "name": "shop-category-grid-5-columns-full",
+    "path": "/shop/category-grid-5-columns-full",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/category-grid-5-columns-full.vue",
+    "chunkName": "pages/shop/category-grid-5-columns-full",
+    "_name": "_5ad2928d"
+  },
+  {
+    "name": "shop-category-list",
+    "path": "/shop/category-list",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/category-list.vue",
+    "chunkName": "pages/shop/category-list",
+    "_name": "_b92416c2"
+  },
+  {
+    "name": "shop-category-right-sidebar",
+    "path": "/shop/category-right-sidebar",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/category-right-sidebar.vue",
+    "chunkName": "pages/shop/category-right-sidebar",
+    "_name": "_380e8f7a"
+  },
+  {
+    "name": "shop-checkout",
+    "path": "/shop/checkout",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/checkout/index.vue",
+    "chunkName": "pages/shop/checkout/index",
+    "_name": "_646250b2"
+  },
+  {
+    "name": "shop-compare",
+    "path": "/shop/compare",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/compare.vue",
+    "chunkName": "pages/shop/compare",
+    "_name": "_3b703612"
+  },
+  {
+    "name": "shop-product-columnar",
+    "path": "/shop/product-columnar",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/product-columnar.vue",
+    "chunkName": "pages/shop/product-columnar",
+    "_name": "_730d3683"
+  },
+  {
+    "name": "shop-product-sidebar",
+    "path": "/shop/product-sidebar",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/product-sidebar.vue",
+    "chunkName": "pages/shop/product-sidebar",
+    "_name": "_569ef610"
+  },
+  {
+    "name": "shop-product-standard",
+    "path": "/shop/product-standard",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/product-standard.vue",
+    "chunkName": "pages/shop/product-standard",
+    "_name": "_0f39a839"
+  },
+  {
+    "name": "shop-track-order",
+    "path": "/shop/track-order",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/track-order.vue",
+    "chunkName": "pages/shop/track-order",
+    "_name": "_d57f9044"
+  },
+  {
+    "name": "shop-wishlist",
+    "path": "/shop/wishlist",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/wishlist.vue",
+    "chunkName": "pages/shop/wishlist",
+    "_name": "_51010d23"
+  },
+  {
+    "name": "site-about-us",
+    "path": "/site/about-us",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/site/about-us.vue",
+    "chunkName": "pages/site/about-us",
+    "_name": "_1692370b"
+  },
+  {
+    "name": "site-components",
+    "path": "/site/components",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/site/components.vue",
+    "chunkName": "pages/site/components",
+    "_name": "_73f0c003"
+  },
+  {
+    "name": "site-contact-us",
+    "path": "/site/contact-us",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/site/contact-us.vue",
+    "chunkName": "pages/site/contact-us",
+    "_name": "_849cac50"
+  },
+  {
+    "name": "site-contact-us-alt",
+    "path": "/site/contact-us-alt",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/site/contact-us-alt.vue",
+    "chunkName": "pages/site/contact-us-alt",
+    "_name": "_09636a34"
+  },
+  {
+    "name": "site-faq",
+    "path": "/site/faq",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/site/faq.vue",
+    "chunkName": "pages/site/faq",
+    "_name": "_37083a0e"
+  },
+  {
+    "name": "site-not-found",
+    "path": "/site/not-found",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/site/not-found.vue",
+    "chunkName": "pages/site/not-found",
+    "_name": "_16d096ab"
+  },
+  {
+    "name": "site-terms",
+    "path": "/site/terms",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/site/terms.vue",
+    "chunkName": "pages/site/terms",
+    "_name": "_106f1a2a"
+  },
+  {
+    "name": "site-typography",
+    "path": "/site/typography",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/site/typography.vue",
+    "chunkName": "pages/site/typography",
+    "_name": "_a83c04c8"
+  },
+  {
+    "name": "shop-checkout-success",
+    "path": "/shop/checkout/success",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/checkout/success.vue",
+    "chunkName": "pages/shop/checkout/success",
+    "_name": "_38bf9318"
+  },
+  {
+    "name": "account-addresses-id",
+    "path": "/account/addresses/:id",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/account/addresses/_id.vue",
+    "chunkName": "pages/account/addresses/_id",
+    "_name": "_2567f360"
+  },
+  {
+    "name": "account-orders-id",
+    "path": "/account/orders/:id",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/account/orders/_id.vue",
+    "chunkName": "pages/account/orders/_id",
+    "_name": "_29d2199d"
+  },
+  {
+    "name": "shop-catalog-slug",
+    "path": "/shop/catalog/:slug",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/catalog/_slug.vue",
+    "chunkName": "pages/shop/catalog/_slug",
+    "_name": "_2f62a726"
+  },
+  {
+    "name": "shop-products-slug",
+    "path": "/shop/products/:slug?",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/products/_slug.vue",
+    "chunkName": "pages/shop/products/_slug",
+    "_name": "_1fa0acfd"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_96e80f92"
+  },
+  {
+    "name": "lang-account",
+    "path": "/:lang/account",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/account/index.vue",
+    "chunkName": "pages/_lang/account/index",
+    "_name": "_445bd456"
+  },
+  {
+    "name": "lang-home-two",
+    "path": "/:lang/home-two",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/home-two.vue",
+    "chunkName": "pages/_lang/home-two",
+    "_name": "_cd1199ee"
+  },
+  {
+    "name": "lang-offcanvas-cart",
+    "path": "/:lang/offcanvas-cart",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/offcanvas-cart.vue",
+    "chunkName": "pages/_lang/offcanvas-cart",
+    "_name": "_1f107611"
+  },
+  {
+    "name": "lang-account-addresses",
+    "path": "/:lang/account/addresses",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/account/addresses/index.vue",
+    "chunkName": "pages/_lang/account/addresses/index",
+    "_name": "_0b66ac30"
+  },
+  {
+    "name": "lang-account-dashboard",
+    "path": "/:lang/account/dashboard",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/account/dashboard.vue",
+    "chunkName": "pages/_lang/account/dashboard",
+    "_name": "_af0d0dd2"
+  },
+  {
+    "name": "lang-account-login",
+    "path": "/:lang/account/login",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/account/login.vue",
+    "chunkName": "pages/_lang/account/login",
+    "_name": "_b10c8e28"
+  },
+  {
+    "name": "lang-account-orders",
+    "path": "/:lang/account/orders",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/account/orders/index.vue",
+    "chunkName": "pages/_lang/account/orders/index",
+    "_name": "_2d9b1df5"
+  },
+  {
+    "name": "lang-account-password",
+    "path": "/:lang/account/password",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/account/password.vue",
+    "chunkName": "pages/_lang/account/password",
+    "_name": "_d8430f30"
+  },
+  {
+    "name": "lang-account-profile",
+    "path": "/:lang/account/profile",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/account/profile.vue",
+    "chunkName": "pages/_lang/account/profile",
+    "_name": "_a9c7f728"
+  },
+  {
+    "name": "lang-blog-category-classic",
+    "path": "/:lang/blog/category-classic",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/blog/category-classic.vue",
+    "chunkName": "pages/_lang/blog/category-classic",
+    "_name": "_44a2e816"
+  },
+  {
+    "name": "lang-blog-category-grid",
+    "path": "/:lang/blog/category-grid",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/blog/category-grid.vue",
+    "chunkName": "pages/_lang/blog/category-grid",
+    "_name": "_6eb33cf3"
+  },
+  {
+    "name": "lang-blog-category-left-sidebar",
+    "path": "/:lang/blog/category-left-sidebar",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/blog/category-left-sidebar.vue",
+    "chunkName": "pages/_lang/blog/category-left-sidebar",
+    "_name": "_06bfbc43"
+  },
+  {
+    "name": "lang-blog-category-list",
+    "path": "/:lang/blog/category-list",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/blog/category-list.vue",
+    "chunkName": "pages/_lang/blog/category-list",
+    "_name": "_a81a136a"
+  },
+  {
+    "name": "lang-blog-post-classic",
+    "path": "/:lang/blog/post-classic",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/blog/post-classic.vue",
+    "chunkName": "pages/_lang/blog/post-classic",
+    "_name": "_4b03bcd2"
+  },
+  {
+    "name": "lang-blog-post-full",
+    "path": "/:lang/blog/post-full",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/blog/post-full.vue",
+    "chunkName": "pages/_lang/blog/post-full",
+    "_name": "_bb49b54c"
+  },
+  {
+    "name": "lang-shop-cart",
+    "path": "/:lang/shop/cart",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/cart.vue",
+    "chunkName": "pages/_lang/shop/cart",
+    "_name": "_07ca3ffe"
+  },
+  {
+    "name": "lang-shop-catalog",
+    "path": "/:lang/shop/catalog",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/catalog/index.vue",
+    "chunkName": "pages/_lang/shop/catalog/index",
+    "_name": "_3119486e"
+  },
+  {
+    "name": "lang-shop-category-grid-3-columns-sidebar",
+    "path": "/:lang/shop/category-grid-3-columns-sidebar",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/category-grid-3-columns-sidebar.vue",
+    "chunkName": "pages/_lang/shop/category-grid-3-columns-sidebar",
+    "_name": "_42e7364c"
+  },
+  {
+    "name": "lang-shop-category-grid-4-columns-full",
+    "path": "/:lang/shop/category-grid-4-columns-full",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/category-grid-4-columns-full.vue",
+    "chunkName": "pages/_lang/shop/category-grid-4-columns-full",
+    "_name": "_d37e9f24"
+  },
+  {
+    "name": "lang-shop-category-grid-5-columns-full",
+    "path": "/:lang/shop/category-grid-5-columns-full",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/category-grid-5-columns-full.vue",
+    "chunkName": "pages/_lang/shop/category-grid-5-columns-full",
+    "_name": "_5ad2928d"
+  },
+  {
+    "name": "lang-shop-category-list",
+    "path": "/:lang/shop/category-list",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/category-list.vue",
+    "chunkName": "pages/_lang/shop/category-list",
+    "_name": "_b92416c2"
+  },
+  {
+    "name": "lang-shop-category-right-sidebar",
+    "path": "/:lang/shop/category-right-sidebar",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/category-right-sidebar.vue",
+    "chunkName": "pages/_lang/shop/category-right-sidebar",
+    "_name": "_380e8f7a"
+  },
+  {
+    "name": "lang-shop-checkout",
+    "path": "/:lang/shop/checkout",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/checkout/index.vue",
+    "chunkName": "pages/_lang/shop/checkout/index",
+    "_name": "_646250b2"
+  },
+  {
+    "name": "lang-shop-compare",
+    "path": "/:lang/shop/compare",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/compare.vue",
+    "chunkName": "pages/_lang/shop/compare",
+    "_name": "_3b703612"
+  },
+  {
+    "name": "lang-shop-product-columnar",
+    "path": "/:lang/shop/product-columnar",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/product-columnar.vue",
+    "chunkName": "pages/_lang/shop/product-columnar",
+    "_name": "_730d3683"
+  },
+  {
+    "name": "lang-shop-product-sidebar",
+    "path": "/:lang/shop/product-sidebar",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/product-sidebar.vue",
+    "chunkName": "pages/_lang/shop/product-sidebar",
+    "_name": "_569ef610"
+  },
+  {
+    "name": "lang-shop-product-standard",
+    "path": "/:lang/shop/product-standard",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/product-standard.vue",
+    "chunkName": "pages/_lang/shop/product-standard",
+    "_name": "_0f39a839"
+  },
+  {
+    "name": "lang-shop-track-order",
+    "path": "/:lang/shop/track-order",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/track-order.vue",
+    "chunkName": "pages/_lang/shop/track-order",
+    "_name": "_d57f9044"
+  },
+  {
+    "name": "lang-shop-wishlist",
+    "path": "/:lang/shop/wishlist",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/wishlist.vue",
+    "chunkName": "pages/_lang/shop/wishlist",
+    "_name": "_51010d23"
+  },
+  {
+    "name": "lang-site-about-us",
+    "path": "/:lang/site/about-us",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/site/about-us.vue",
+    "chunkName": "pages/_lang/site/about-us",
+    "_name": "_1692370b"
+  },
+  {
+    "name": "lang-site-components",
+    "path": "/:lang/site/components",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/site/components.vue",
+    "chunkName": "pages/_lang/site/components",
+    "_name": "_73f0c003"
+  },
+  {
+    "name": "lang-site-contact-us",
+    "path": "/:lang/site/contact-us",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/site/contact-us.vue",
+    "chunkName": "pages/_lang/site/contact-us",
+    "_name": "_849cac50"
+  },
+  {
+    "name": "lang-site-contact-us-alt",
+    "path": "/:lang/site/contact-us-alt",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/site/contact-us-alt.vue",
+    "chunkName": "pages/_lang/site/contact-us-alt",
+    "_name": "_09636a34"
+  },
+  {
+    "name": "lang-site-faq",
+    "path": "/:lang/site/faq",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/site/faq.vue",
+    "chunkName": "pages/_lang/site/faq",
+    "_name": "_37083a0e"
+  },
+  {
+    "name": "lang-site-not-found",
+    "path": "/:lang/site/not-found",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/site/not-found.vue",
+    "chunkName": "pages/_lang/site/not-found",
+    "_name": "_16d096ab"
+  },
+  {
+    "name": "lang-site-terms",
+    "path": "/:lang/site/terms",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/site/terms.vue",
+    "chunkName": "pages/_lang/site/terms",
+    "_name": "_106f1a2a"
+  },
+  {
+    "name": "lang-site-typography",
+    "path": "/:lang/site/typography",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/site/typography.vue",
+    "chunkName": "pages/_lang/site/typography",
+    "_name": "_a83c04c8"
+  },
+  {
+    "name": "lang-shop-checkout-success",
+    "path": "/:lang/shop/checkout/success",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/checkout/success.vue",
+    "chunkName": "pages/_lang/shop/checkout/success",
+    "_name": "_38bf9318"
+  },
+  {
+    "name": "lang-account-addresses-id",
+    "path": "/:lang/account/addresses/:id",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/account/addresses/_id.vue",
+    "chunkName": "pages/_lang/account/addresses/_id",
+    "_name": "_2567f360"
+  },
+  {
+    "name": "lang-account-orders-id",
+    "path": "/:lang/account/orders/:id",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/account/orders/_id.vue",
+    "chunkName": "pages/_lang/account/orders/_id",
+    "_name": "_29d2199d"
+  },
+  {
+    "name": "lang-shop-catalog-slug",
+    "path": "/:lang/shop/catalog/:slug",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/catalog/_slug.vue",
+    "chunkName": "pages/_lang/shop/catalog/_slug",
+    "_name": "_2f62a726"
+  },
+  {
+    "name": "lang-shop-products-slug",
+    "path": "/:lang/shop/products/:slug?",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/shop/products/_slug.vue",
+    "chunkName": "pages/_lang/shop/products/_slug",
+    "_name": "_1fa0acfd"
+  },
+  {
+    "name": "lang-index",
+    "path": "/:lang/",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/index.vue",
+    "chunkName": "pages/_lang/index",
+    "_name": "_96e80f92"
+  }
+]
