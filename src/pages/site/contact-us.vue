@@ -51,50 +51,6 @@
                                     </div>
                                 </div>
 
-                                <div class="col-12 col-lg-6">
-                                    <h4 class="contact-us__header card-title">
-                                        Leave us a Message
-                                    </h4>
-
-                                    <form>
-                                        <div class="form-row">
-                                            <div class="form-group col-md-6">
-                                                <label for="form-name">Your Name</label>
-                                                <input
-                                                    id="form-name"
-                                                    class="form-control"
-                                                    type="text"
-                                                    placeholder="Your Name"
-                                                >
-                                            </div>
-                                            <div class="form-group col-md-6">
-                                                <label for="form-email">Email</label>
-                                                <input
-                                                    id="form-email"
-                                                    class="form-control"
-                                                    type="email"
-                                                    placeholder="Email Address"
-                                                >
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="form-subject">Subject</label>
-                                            <input
-                                                id="form-subject"
-                                                class="form-control"
-                                                type="text"
-                                                placeholder="Subject"
-                                            >
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="form-message">Message</label>
-                                            <textarea id="form-message" class="form-control" :rows="4" />
-                                        </div>
-                                        <button type="submit" class="btn btn-primary">
-                                            Send Message
-                                        </button>
-                                    </form>
-                                </div>
                             </div>
                         </div>
                     </div>

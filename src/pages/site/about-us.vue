@@ -22,37 +22,6 @@
                                 eget velit fermentum, dignissim odio non, bibendum velit.
                             </p>
                         </div>
-                        <div class="about-us__team">
-                            <h2 class="about-us__team-title">
-                                Meat Our Team
-                            </h2>
-                            <div class="about-us__team-subtitle text-muted">
-                                Want to work in our friendly team?
-                                <br>
-                                <AppLink :to="$url.contacts()">
-                                    Contact us
-                                </AppLink>
-                                and we will consider your candidacy.
-                            </div>
-                            <div class="about-us__teammates teammates">
-                                <Carousel :options="carouselOptions">
-                                    <CarouselSlide v-for="(teammate, index) in teammates" :key="index">
-                                        <div class="teammates__item teammate">
-                                            <div class="teammate__avatar">
-                                                <!--suppress HtmlUnknownTarget -->
-                                                <img :src="$url.img(teammate.avatar)" alt="">
-                                            </div>
-                                            <div class="teammate__name">
-                                                {{ teammate.name }}
-                                            </div>
-                                            <div class="teammate__position text-muted">
-                                                {{ teammate.position }}
-                                            </div>
-                                        </div>
-                                    </CarouselSlide>
-                                </Carousel>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

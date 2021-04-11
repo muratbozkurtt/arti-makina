@@ -33,9 +33,6 @@
                                         <div class="block-slideshow__slide-title" v-html="slide.title" />
                                         <!-- eslint-disable-next-line vue/no-v-html -->
                                         <div class="block-slideshow__slide-text" v-html="slide.text" />
-                                        <div class="block-slideshow__slide-button">
-                                            <span class="btn btn-primary btn-lg">Shop Now</span>
-                                        </div>
                                     </div>
                                 </AppLink>
                             </CarouselSlide>
