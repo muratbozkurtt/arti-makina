@@ -20,23 +20,6 @@
                             ]"
                         />
                     </div>
-                    <div class="col-6 col-md-3 col-lg-2">
-                        <footer-links
-                            title="My Account"
-                            :links="[
-                                {title: 'Store Location', url: ''},
-                                {title: 'Order History', url: ''},
-                                {title: 'Wish List', url: ''},
-                                {title: 'Newsletter', url: ''},
-                                {title: 'Specials', url: ''},
-                                {title: 'Gift Certificates', url: ''},
-                                {title: 'Affiliate', url: ''}
-                            ]"
-                        />
-                    </div>
-                    <div class="col-12 col-md-12 col-lg-4">
-                        <footer-newsletter />
-                    </div>
                 </div>
             </div>
 

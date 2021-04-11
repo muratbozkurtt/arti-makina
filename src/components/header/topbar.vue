@@ -13,46 +13,6 @@
                         Contacts
                     </AppLink>
                 </div>
-                <div class="topbar__item topbar__item--link">
-                    <AppLink to="/" class="topbar-link">
-                        Store Location
-                    </AppLink>
-                </div>
-                <div class="topbar__item topbar__item--link">
-                    <AppLink :to="$url.trackOrder()" class="topbar-link">
-                        Track Order
-                    </AppLink>
-                </div>
-                <div class="topbar__item topbar__item--link">
-                    <AppLink :to="$url.blog()" class="topbar-link">
-                        Blog
-                    </AppLink>
-                </div>
-                <div class="topbar__spring" />
-                <div class="topbar__item">
-                    <Dropdown
-                        :items="[
-                            { title: 'Dashboard', url: $url.accountDashboard()},
-                            { title: 'Edit Profile', url: $url.accountProfile()},
-                            { title: 'Order History', url: $url.accountOrders()},
-                            { title: 'Addresses', url: $url.accountAddresses()},
-                            { title: 'Password', url: $url.accountPassword()},
-                            { title: 'Logout', url: $url.signOut()}
-                        ]"
-                    >
-                        My Account
-                    </Dropdown>
-                </div>
-                <div class="topbar__item">
-                    <Dropdown :items="currencies" @itemClick="setCurrency($event.currency)">
-                        Currency <span class="topbar__item-value">{{ currency.code }}</span>
-                    </Dropdown>
-                </div>
-                <div class="topbar__item">
-                    <Dropdown :items="languages" :with-icons="true" @itemClick="setLanguage($event.locale)">
-                        Language: <span class="topbar__item-value">{{ language.code }}</span>
-                    </Dropdown>
-                </div>
             </div>
         </div>
     </div>

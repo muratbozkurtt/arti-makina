@@ -11,7 +11,6 @@
                 </AppLink>
             </div>
             <div class="site-header__search">
-                <Search location="header" />
             </div>
             <div class="site-header__phone">
                 <div class="site-header__phone-title">

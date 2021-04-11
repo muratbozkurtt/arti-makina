@@ -1,8 +1,8 @@
 <template>
     <div>
-        <BlockSlideshow layout="with-departments" />
+        <BlockSlideshow layout="full" />
 
-        <BlockFeatures />
+        <BlockFeatures layout="boxed" />
 
         <BlockProductsCarouselContainer
             v-slot:default="{ products, isLoading, tabs, handleTabChange }"
@@ -17,43 +17,7 @@
         >
             <BlockProductsCarousel
                 title="Featured Products"
-                layout="grid-4"
-                :products="products"
-                :loading="isLoading"
-                :groups="tabs"
-                @groupClick="handleTabChange"
-            />
-        </BlockProductsCarouselContainer>
-
-        <BlockBanner />
-
-        <BlockProducts
-            title="Bestsellers"
-            layout="large-first"
-            :featured-product="(bestsellers || [])[0]"
-            :products="(bestsellers || []).slice(1, 7)"
-        />
-
-        <BlockCategories
-            title="Popular Categories"
-            layout="classic"
-            :categories="categories"
-        />
-
-        <BlockProductsCarouselContainer
-            v-slot:default="{ products, isLoading, tabs, handleTabChange }"
-            :tabs="[
-                { id: 1, name: 'All', categorySlug: undefined },
-                { id: 2, name: 'Power Tools', categorySlug: 'power-tools' },
-                { id: 3, name: 'Hand Tools', categorySlug: 'hand-tools' },
-                { id: 4, name: 'Plumbing', categorySlug: 'plumbing' }
-            ]"
-            :initial-data="latestProducts"
-            :data-source="latestProductsSource"
-        >
-            <BlockProductsCarousel
-                title="New Arrivals"
-                layout="horizontal"
+                layout="grid-5"
                 :rows="2"
                 :products="products"
                 :loading="isLoading"
@@ -61,16 +25,6 @@
                 @groupClick="handleTabChange"
             />
         </BlockProductsCarouselContainer>
-
-        <BlockPosts
-            title="Latest News"
-            layout="list"
-            :posts="posts"
-        />
-
-        <BlockBrands />
-
-        <BlockProductColumns :columns="columns" />
     </div>
 </template>
 
@@ -123,10 +77,10 @@ async function loadColumns () {
         BlockProductColumns
     },
     async asyncData (context: Context) {
-        context.store.commit('options/setHeaderLayout', 'default')
+        context.store.commit('options/setHeaderLayout', 'compact')
         context.store.commit('options/setDropcartType', 'dropdown')
 
-        const featuredProducts = runOnlyOnServer(() => shopApi.getFeaturedProducts({ limit: 8 }), null)
+        const featuredProducts = runOnlyOnServer(() => shopApi.getFeaturedProducts({ limit: 12 }), null)
         const bestsellers = runOnlyOnServer(() => shopApi.getPopularProducts({ limit: 7 }), null)
         const latestProducts = runOnlyOnServer(() => shopApi.getLatestProducts({ limit: 8 }), null)
         const columns = runOnlyOnServer(() => loadColumns(), null)
@@ -140,11 +94,11 @@ async function loadColumns () {
     },
     head () {
         return {
-            title: 'Home Page One'
+            title: 'Home Page Two'
         }
     }
 })
-export default class HomePageOne extends Vue {
+export default class Page extends Vue {
     shopApi = shopApi
 
     featuredProducts: IProduct[] | null = []
@@ -173,7 +127,7 @@ export default class HomePageOne extends Vue {
     }
 
     featuredProductsSource (tab: {categorySlug: string}): Promise<IProduct[]> {
-        return shopApi.getFeaturedProducts({ limit: 8, category: tab.categorySlug })
+        return shopApi.getFeaturedProducts({ limit: 12, category: tab.categorySlug })
     }
 
     latestProductsSource (tab: {categorySlug: string}): Promise<IProduct[]> {

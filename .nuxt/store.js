@@ -19,11 +19,11 @@ let store = {};
   // Enforce store modules
   store.modules = store.modules || {}
 
-  resolveStoreModules(require('../src/store/mobileMenu.ts'), 'mobileMenu.ts')
   resolveStoreModules(require('../src/store/cart.ts'), 'cart.ts')
+  resolveStoreModules(require('../src/store/compare.ts'), 'compare.ts')
   resolveStoreModules(require('../src/store/currency.ts'), 'currency.ts')
   resolveStoreModules(require('../src/store/locale.ts'), 'locale.ts')
-  resolveStoreModules(require('../src/store/compare.ts'), 'compare.ts')
+  resolveStoreModules(require('../src/store/mobileMenu.ts'), 'mobileMenu.ts')
   resolveStoreModules(require('../src/store/offcanvasCart.ts'), 'offcanvasCart.ts')
   resolveStoreModules(require('../src/store/options.ts'), 'options.ts')
   resolveStoreModules(require('../src/store/quickview.ts'), 'quickview.ts')
@@ -35,12 +35,12 @@ let store = {};
   if (process.client && module.hot) {
     // Whenever any Vuex module is updated...
     module.hot.accept([
-      '../src/store/mobileMenu.ts',
       '../src/store/cart.ts',
+      '../src/store/compare.ts',
       '../src/store/currency.ts',
       '../src/store/index.ts',
       '../src/store/locale.ts',
-      '../src/store/compare.ts',
+      '../src/store/mobileMenu.ts',
       '../src/store/offcanvasCart.ts',
       '../src/store/options.ts',
       '../src/store/quickview.ts',

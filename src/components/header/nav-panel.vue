@@ -15,10 +15,6 @@
                     </AppLink>
                 </div>
 
-                <div v-if="layout === 'default'" class="nav-panel__departments">
-                    <Departments ref="departments" @onSetArea="onSetDepartmentsArea" />
-                </div>
-
                 <!-- .nav-links -->
                 <NavLinks ref="nav" class="nav-panel__nav-links" />
                 <!-- .nav-links / end -->
@@ -87,7 +83,6 @@ import { DropcartType } from '~/store/options'
 import Sticky from '~/services/sticky'
 import departments from '~/services/departments'
 
-import Departments from '~/components/header/departments.vue'
 import NavLinks from '~/components/header/nav-links.vue'
 import AccountMenu from '~/components/header/account-menu.vue'
 import Indicator from '~/components/header/indicator.vue'
@@ -113,7 +108,6 @@ type StickyMode = 'pullToShow' | 'alwaysOnTop' | false
         Dropcart,
         Indicator,
         NavLinks,
-        Departments,
         LogoSmallSvg,
         Heart20Svg,
         Cart20Svg,
@@ -132,7 +126,6 @@ export default class NavPanel extends Vue {
     @State((state: RootState) => state.options.dropcartType) dropcartType!: DropcartType
     @State((state: RootState) => state.wishlist) wishlist!: WishlistState
 
-    @Ref() readonly departments: Departments | undefined
     @Ref() readonly nav: NavLinks | undefined
     @Ref() readonly searchIndicator: Indicator | undefined
     @Ref() readonly cartIndicator: Indicator | undefined
@@ -149,20 +142,8 @@ export default class NavPanel extends Vue {
             show: 'nav-panel--show'
         })
 
-        this.sticky.on('stuck', () => {
-            if (this.departments) {
-                this.departments.setStickyState(true)
-            }
-        })
-        this.sticky.on('fix', () => {
-            if (this.departments) {
-                this.departments.setStickyState(false)
-            }
-        })
         this.sticky.on('hide', () => {
-            if (this.departments) {
-                this.departments.closeMenu(true)
-            }
+    
             if (this.nav) {
                 this.nav.closeSubmenu()
             }
