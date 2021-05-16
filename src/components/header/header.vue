@@ -4,11 +4,8 @@
 
         <div v-if="layout === 'default'" class="site-header__middle container">
             <div class="site-header__logo">
-                <AppLink to="/">
-                    <!-- logo -->
-                    <LogoSvg />
-                    <!-- logo / end -->
-                </AppLink>
+              <img src="../../assets/logo.png" width="220" alt="Artı Makina">
+
             </div>
             <div class="site-header__search">
             </div>

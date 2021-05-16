@@ -1,11 +1,6 @@
 <template>
     <div class="site-footer">
         <div class="container">
-            <div class="site-footer__widgets">
-                <div class="row">
-                </div>
-            </div>
-
             <div class="site-footer__bottom">
                 <div class="site-footer__copyright">
                     <!-- copyright -->
