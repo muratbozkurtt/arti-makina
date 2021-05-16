@@ -14,10 +14,13 @@
             </div>
             <div class="site-header__phone">
                 <div class="site-header__phone-title">
-                    Customer Service
+                    İletişim
                 </div>
                 <div class="site-header__phone-number">
                     {{ theme.contacts.phone }}
+                </div>
+                <div class="site-header__phone-number">
+                    {{ theme.contacts.phone2 }}
                 </div>
             </div>
         </div>

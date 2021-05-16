@@ -7,16 +7,13 @@
         <BlockProductsCarouselContainer
             v-slot:default="{ products, isLoading, tabs, handleTabChange }"
             :tabs="[
-                { id: 1, name: 'All', categorySlug: undefined },
-                { id: 2, name: 'Power Tools', categorySlug: 'power-tools' },
-                { id: 3, name: 'Hand Tools', categorySlug: 'hand-tools' },
-                { id: 4, name: 'Plumbing', categorySlug: 'plumbing' }
+                { id: 1, name: '', categorySlug: undefined },
             ]"
             :initial-data="featuredProducts"
             :data-source="featuredProductsSource"
         >
             <BlockProductsCarousel
-                title="Featured Products"
+                title="Ürünler"
                 layout="grid-4"
                 :products="products"
                 :loading="isLoading"

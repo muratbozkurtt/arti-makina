@@ -6,6 +6,12 @@
     "chunkName": "pages/account/index"
   },
   {
+    "name": "account-addresses",
+    "path": "/account/addresses",
+    "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/account/addresses/index.vue",
+    "chunkName": "pages/account/addresses/index"
+  },
+  {
     "name": "account-dashboard",
     "path": "/account/dashboard",
     "component": "/Users/mbozkurt/projects/vueSamples/arti-makina/src/pages/account/dashboard.vue",

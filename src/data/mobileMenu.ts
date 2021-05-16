@@ -114,14 +114,9 @@ const dataMobileMenu: IMobileMenu = [
         title: 'Pages',
         url: '/site/about-us',
         children: [
-            { type: 'link', title: 'About Us', url: '/site/about-us' },
-            { type: 'link', title: 'Contact Us', url: '/site/contact-us' },
-            { type: 'link', title: 'Contact Us Alt', url: '/site/contact-us-alt' },
+            { type: 'link', title: 'Hakkımızda', url: '/site/about-us' },
+            { type: 'link', title: 'İletişim', url: '/site/contact-us' },
             { type: 'link', title: '404', url: '/site/not-found' },
-            { type: 'link', title: 'Terms And Conditions', url: '/site/terms' },
-            { type: 'link', title: 'FAQ', url: '/site/faq' },
-            { type: 'link', title: 'Components', url: '/site/components' },
-            { type: 'link', title: 'Typography', url: '/site/typography' }
         ]
     }
 ]

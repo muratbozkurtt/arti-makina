@@ -4,7 +4,7 @@
             title="Contact Us"
             :breadcrumb="[
                 { title: 'Home', url: '' },
-                { title: 'Contact Us', url: '' },
+                { title: 'İletişim Bilgileri', url: '' },
             ]"
         />
 

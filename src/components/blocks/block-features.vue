@@ -8,10 +8,10 @@
                     </div>
                     <div class="block-features__content">
                         <div class="block-features__title">
-                            Free Shipping
+                            Ücretsiz kargo
                         </div>
                         <div class="block-features__subtitle">
-                            For orders from $50
+                            (Bilgi için iletişime geçiniz)
                         </div>
                     </div>
                 </div>
@@ -22,41 +22,11 @@
                     </div>
                     <div class="block-features__content">
                         <div class="block-features__title">
-                            Support 24/7
-                        </div>
-                        <div class="block-features__subtitle">
-                            Call us anytime
+                            Destek 24/7
                         </div>
                     </div>
                 </div>
                 <div class="block-features__divider" />
-                <div class="block-features__item">
-                    <div class="block-features__icon">
-                        <FiPaymentSecurity48Svg />
-                    </div>
-                    <div class="block-features__content">
-                        <div class="block-features__title">
-                            100% Safety
-                        </div>
-                        <div class="block-features__subtitle">
-                            Only secure payments
-                        </div>
-                    </div>
-                </div>
-                <div class="block-features__divider" />
-                <div class="block-features__item">
-                    <div class="block-features__icon">
-                        <FiTag48Svg />
-                    </div>
-                    <div class="block-features__content">
-                        <div class="block-features__title">
-                            Hot Offers
-                        </div>
-                        <div class="block-features__subtitle">
-                            Discounts up to 90%
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

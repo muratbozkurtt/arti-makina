@@ -40,33 +40,6 @@
                         </Indicator>
                     </SearchScope>
 
-                    <Indicator :to="$url.wishlist()" :value="wishlist.items.length">
-                        <template v-slot:icon>
-                            <Heart20Svg />
-                        </template>
-                    </Indicator>
-
-                    <Indicator
-                        ref="cartIndicator"
-                        :to="$url.cart()"
-                        :value="$store.getters['cart/quantity']"
-                        trigger="click"
-                        @buttonClick="onCartClick"
-                    >
-                        <template v-slot:icon>
-                            <Cart20Svg />
-                        </template>
-
-                        <Dropcart v-if="dropcartType === 'dropdown'" />
-                    </Indicator>
-
-                    <Indicator ref="accountIndicator" :to="$url.accountDashboard()" trigger="click">
-                        <template v-slot:icon>
-                            <Person20Svg />
-                        </template>
-
-                        <AccountMenu />
-                    </Indicator>
                 </div>
             </div>
         </div>
@@ -84,7 +57,7 @@ import Sticky from '~/services/sticky'
 import departments from '~/services/departments'
 
 import NavLinks from '~/components/header/nav-links.vue'
-import AccountMenu from '~/components/header/account-menu.vue'
+
 import Indicator from '~/components/header/indicator.vue'
 import Dropcart from '~/components/header/dropcart.vue'
 import AppLink from '~/components/shared/app-link.vue'
@@ -112,8 +85,8 @@ type StickyMode = 'pullToShow' | 'alwaysOnTop' | false
         Heart20Svg,
         Cart20Svg,
         Person20Svg,
-        AccountMenu,
-        AppLink,
+
+AppLink,
         Search20Svg,
         Cross20Svg,
         Search

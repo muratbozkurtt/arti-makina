@@ -10,7 +10,7 @@
                 </div>
                 <div class="topbar__item topbar__item--link">
                     <AppLink :to="$url.contacts()" class="topbar-link">
-                        Contacts
+                        İletişim Bilgileri
                     </AppLink>
                 </div>
             </div>
