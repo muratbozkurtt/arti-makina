@@ -35,21 +35,6 @@
                 >
                     <Menu :items="item.submenu.menu" @itemClick="onSubmenuItemClick(item)" />
                 </div>
-                <div
-                    v-if="item.submenu && item.submenu.type === 'megamenu'"
-                    ref="submenus"
-                    :class="[
-                        'nav-links__submenu',
-                        'nav-links__submenu--type--megamenu',
-                        `nav-links__submenu--size--${item.submenu.menu.size}`,
-                        {
-                            'nav-links__submenu--display': item === hoveredItem,
-                            'nav-links__submenu--open': item === hoveredItem
-                        }
-                    ]"
-                >
-                    <Megamenu :menu="item.submenu.menu" location="nav-panel" />
-                </div>
             </li>
         </ul>
     </div>

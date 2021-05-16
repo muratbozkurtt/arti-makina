@@ -7,7 +7,6 @@ const dataMobileMenu: IMobileMenu = [
         url: '/',
         children: [
             { type: 'link', title: 'Home 1', url: '/' },
-            { type: 'link', title: 'Home 2', url: '/home-two' },
             { type: 'link', title: 'Offcanvas Cart', url: '/offcanvas-cart' }
         ]
     },

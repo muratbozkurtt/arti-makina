@@ -4,8 +4,6 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _445bd456 = () => interopDefault(import('../src/pages/account/index.vue' /* webpackChunkName: "pages/account/index" */))
-const _cd1199ee = () => interopDefault(import('../src/pages/home-two.vue' /* webpackChunkName: "pages/home-two" */))
-const _1f107611 = () => interopDefault(import('../src/pages/offcanvas-cart.vue' /* webpackChunkName: "pages/offcanvas-cart" */))
 const _0b66ac30 = () => interopDefault(import('../src/pages/account/addresses/index.vue' /* webpackChunkName: "pages/account/addresses/index" */))
 const _af0d0dd2 = () => interopDefault(import('../src/pages/account/dashboard.vue' /* webpackChunkName: "pages/account/dashboard" */))
 const _b10c8e28 = () => interopDefault(import('../src/pages/account/login.vue' /* webpackChunkName: "pages/account/login" */))
@@ -67,14 +65,6 @@ export const routerOptions = {
     path: "/account",
     component: _445bd456,
     name: "account"
-  }, {
-    path: "/home-two",
-    component: _cd1199ee,
-    name: "home-two"
-  }, {
-    path: "/offcanvas-cart",
-    component: _1f107611,
-    name: "offcanvas-cart"
   }, {
     path: "/account/addresses",
     component: _0b66ac30,
@@ -239,14 +229,6 @@ export const routerOptions = {
     path: "/:lang/account",
     component: _445bd456,
     name: "lang-account"
-  }, {
-    path: "/:lang/home-two",
-    component: _cd1199ee,
-    name: "lang-home-two"
-  }, {
-    path: "/:lang/offcanvas-cart",
-    component: _1f107611,
-    name: "lang-offcanvas-cart"
   }, {
     path: "/:lang/account/addresses",
     component: _0b66ac30,
